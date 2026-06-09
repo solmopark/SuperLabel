@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER LABEL</title>
+    <!-- 소셜 미디어 및 공유 -->
+    <meta property="og:title" content="소셜 미디어에 표시될 제목">
+    <meta property="og:description" content="소셜 미디어에 표시될 설명">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:type" content="website">
+    <link rel="icon" sizes="16x16" href="" title="파비콘">
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css">
+    <script defer type="text/javascript" src="./script/common.js"></script>
+    <script src="./script/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div id="header" class="flex_sb bd_r20">
+            <div class="toplogo">
+                <img src="./images/logo.png" alt="logo" class="displayBlock">
+                <img src="./images/logo_mobile.png" alt="logoMobile" class="displayNone">
+            </div>
+
+            <div class="flex">
+                <button class="btn"><a href="javascript:void(0);">사업자 회원가입</a></button>
+                <button class="btn"><a href="javascript:void(0);">실시간 문의하기</a></button>
+                <button class="btn home"><a href="javascript:void(0);">슈퍼레이블</a> </button>
+                <div id="menu-bar" class="mobile_menuBar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- mobile -->
+    <div class="mobile_Menu" id="noneMenu">
+        <ul class="menu">
+            <li><a href="javascript:void(0);">사업자 회원가입</a>
+            </li>
+            <li><a href="javascript:void(0);">실시간 문의하기</a>
+            </li>
+            <li><a href="javascript:void(0);"><img src="./images/icon_home.svg" alt="" class="ml10">슈퍼레이블</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- mainContainer -->
+    <main>
+        <!-- mainVisual -->
+        <section id="Wrap" class="visual">
+            <div id="inner">
+                <div class="visual_title">
+                    <h2 class="dot-emphasis">국내최초!</h2>
+                    <h1><b class="ore">1688</b> 직접구매 솔루션!</h1>
+                </div>
+                <div class="works_img displayNone"><a href="#"><img src="./images/main_macbook02.png" alt="">
+                    </a>
+                </div>
+                <div class="countArea">
+                    <div class="countbox">
+                        <h4 data-target="5000">0</h4>
+                        <p>이용 <br>고객사</p>
+                    </div>
+                    <div class="countbox">
+                        <h4 data-target="1000">0</h4>
+                        <p>월 평균 <br>수입건수</p>
+                    </div>
+                    <div class="countbox">
+                        <h4 data-target="10000">0</h4>
+                        <p>누적거래 <br>SKU</p>
+                    </div>
+                    <div class="countbox">
+                        <h4 data-target="15">0%</h4>
+                        <p>월 평균 <br>거래액 증가율</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn"><a href="javascript:void(0);">사업자 회원가입</a></button>
+                    <button class="btn"><a href="javascript:void(0);">실시간 문의하기</a></button>
+                    <button class="btn home"><a href="javascript:void(0);">슈퍼레이블</a> </button>
+                </div>
+                <div class="flex">
+                    <h5>💡 </h5>
+                    <h5 class="notice">사업자 고객님!<br>이제는 평생 <b>구매대행 0원</b>으로 <br class="br768"><b>1688에서 직접 구매</b>하세요!
+                    </h5>
+                </div>
+
+                <div class="works_img displayBlock"><a href="#"><img src="./images/main_macbook.png" alt="">
+                        <div class="portfolio_img"></div>
+                    </a>
+                </div>
+            </div>
+            <span class="imgArea">
+                <img src="./images/icon_load.svg" alt="">
+            </span>
+        </section>
+
+        <!-- rolling -->
+        <section id="Wrap" class="rollingWrap">
+            <div id="inner">
+                <div class="scroll-text">
+                    <div class="track">
+                        <div class="text -twox">
+                            <div></div>
+                            <div class="textArea">
+                                <span class="imgArea">
+                                    <img src="./images/main_profile01.svg" alt="">
+                                </span>
+                                <p>
+                                    경쟁사 상품들 어떻게 저렇게 저렴하게 <br class="br425">판매하는지 모르겠어요.. <br>
+                                    나만 비싸게 수입해오는 것 같아요 😰
+                                </p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div class="text -r">
+                            <div></div>
+                            <div class="textArea">
+                                <span class="imgArea">
+                                    <img src="./images/main_profile02.svg" alt="">
+                                </span>
+                                <p>
+                                    1688닷컴 전부 중국어로 되어있고 <br class="br425">메뉴도 너무 많아요.. <br>접속만해도 너무 어지러워서 못하겠어요 😢
+                                </p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div class="text -twox">
+                            <div class="ml230"></div>
+                            <div class="textArea">
+                                <span class="imgArea">
+                                    <img src="./images/main_profile03.svg" alt="">
+                                </span>
+                                <p>
+                                    중국어 할 줄 알아서 1688 상품도 직접 고르지만<br class="br425">..1688 직접 결제가 안되니 <br class="brnone">
+                                    결국 대행수수료 5% 내고 <br class="br425">구매대행업체 이용하고 있어요.. 너무 아까워요 😡
+                                </p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div class="text -r">
+                            <div class="ml230"></div>
+                            <div class="textArea">
+                                <span class="imgArea">
+                                    <img src="./images/main_profile04.svg" alt="">
+                                </span>
+                                <p>
+                                    초보셀러인데 뭘 어떻게 시작해야할지도 <br class="br425">잘 모르겠어요.. 도와주세요 😭
+                                </p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="imgArea">
+                    <img src="./images/icon_load.svg" alt="">
+                </div>
+                <h2>왠지, <strong>'내 얘기' 같다면? <br class="br1200"></strong> 당신은 <b class="pink">슈퍼레이블</b>이 <br class="br425">필요하신 거예요!</h2>
+            </div>
+        </section>
+
+        <section id="Wrap" class="bgG">
+            <div id="inner">
+                <div class="titleBox">
+                    <h2 class="dot-emphasis">국내최초!</h2>
+                    <h2><b> '<spam class="ore">1688</spam> 직접구매 솔루션'<br class="br425"></b>이 해결해드려요!</h2>
+                </div>
+
+                <div id="solutionWrap" class="grid gridCol3">
+                    <div class="textBox">
+                        <span class="imgArea"><img src="./images/main_zero.svg" alt=""></span>
+                        <p>평생 <br>구매대행 <b>수수료 0원</b></p>
+                        <div class="detail">
+                            <div class="textArea">
+                                1688에서 직접 구매할 수 있는 방법이 있는데 <br>3~10% 구매대행수수료 내고 상품 소싱하시나요?
+                            </div>
+                            <div class="textArea">
+                                <span class="pink">원가절감은 선택사항이 아니라 필수입니다. </span><br> 이제는 1688에서 직접 구매해야할 때입니다!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <span class="imgArea"><img src="./images/main_lowest.svg" alt=""></span>
+                        <p>업계 최저 수준 <br> <b>실시간 적용환율</b></p>
+                        <div class="detail">
+                            <div class="textArea">
+                                구매대행수수료에는 높은 환율이 숨겨져 있어서, <br>수수료가 이중으로 부과되고 있습니다.
+                            </div>
+                            <div class="textArea">
+                                하나은행의 외환시스템으로 <span class="pink">실시간 최저 환율을</span> <br><span class="pink">적용</span>하여 제공해드리고 있습니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <span class="imgArea"><img src="./images/main_won.svg" alt=""></span>
+                        <p>월드퍼스트 충전 <br><b>원화입금 지원</b></p>
+                        <div class="detail">
+                            <div class="textArea">
+                                1688에서 직접 구매하기 위해서는 <br>월드퍼스트(콰징바오) 계좌에 <br class="br425">구매자금이 있어야 합니다. <br>구매자금 충전을 위해 슈퍼레이블은 <br><span class="pink">고객사 전용 가상계좌를 발급해드리고 원화로 입금,</span> <br><span class="pink">USD로 충전</span>해드립니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <span class="imgArea"><img src="./images/main_purchase.svg" alt=""></span>
+                        <p>1688 본인계정 <br><b>상품 직접구매</b></p>
+                        <div class="detail">
+                            <div class="textArea">
+                                월드퍼스트(콰징바오)와 연동된 1688 계정으로 <br> 구매실적이 누적되면 1688 회원등급이 올라가고, <br>1688 상시할인 최대 5% 혜택을 <br class="br425">누리실 수 있습니다.
+                            </div>
+                            <div class="textArea">
+                                월드퍼스트에서도 1688 구매내역을 <br>확인하실 수 있습니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <span class="imgArea"><img src="./images/main_onestop.svg" alt=""></span>
+                        <p>사입부터 수입까지 <br><b>원스톱 물류</b></p>
+                        <div class="detail">
+                            <div class="textArea">
+                                슈퍼레이블은 1688 상품소싱(사입)부터 <br>국제운송, 수입통관, 국내운송까지 <br>원스톱 사입 솔루션을 제공하고 있습니다. <br>슈퍼레이블은 글로벌 물류 기업인 <br><span class="pink">롯데글로벌로지스</span>와 함께하고 있습니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <span class="imgArea"><img src="./images/main_consult.svg" alt=""></span>
+                        <p>구매대행, 무역전문 <br><b>컨설팅 제공</b></p>
+                        <div class="detail">
+                            <div class="textArea">
+                                이커머스, 구매대행, 무역, 외환 등 <br>각 분야별 전문 매니저가 1:1 전담 관리해드립니다.
+                            </div>
+                            <div class="textArea">
+                                무엇이든 물어보세요!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 차별점 -->
+        <section id="Wrap">
+            <div id="inner">
+                <div class="titleBox">
+                    <h2><b class="pink">슈퍼레이블</b>은</h2>
+                    <h2><b>구매대행업체</b>와 <br class="br425">어떻게 다른가요?</h2>
+                </div>
+                <div id="dfrWrap" class="grid gridCol3">
+                    <div class="Box boxStyle my20">
+                        <div class="flex_sb">
+                            <h3 class="gray">C사</h3>
+                            <label class="gr">구매대행</label>
+                        </div>
+                        <div class="flex_sb">
+                            <p class="textArea0">구매대행 수수료</p>
+                            <p class="textArea0">
+                                <span class="fs40 gray">7</span> %
+                            </p>
+                        </div>
+                        <div class="checkBox">
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine" checked>
+                                <p>기준 통화 : 위안화(CNY)</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine" checked>
+                                <p class="bold">적용 환율 : 현찰살때 환율 이상</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine">
+                                <p>1688 구매실적 누적 불가</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine">
+                                <p>회원등급에 따른 상시 할인혜택 없음</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Box boxStyle01">
+                        <div class="flex_sb">
+                            <h3 class="bold pink">슈퍼레이블</h3>
+                            <label class="pi">직접구매</label>
+                        </div>
+                        <div class="flex_sb">
+                            <p class="textArea0">구매대행 수수료</p>
+                            <p class="textArea0"><span class="fs40 pink">0</span> %</p>
+                        </div>
+                        <div class="checkBox">
+                            <div class="Check">
+                                <input type="checkbox" class="checkFull" checked>
+                                <p>기준 통화 : 달러(USD), 위안화(CNH)</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkFull" checked>
+                                <p class="bold">적용 환율 : 실시간 송금환율</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkFull" checked>
+                                <p>1688 구매실적 누적 & 회원등급 UP!</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkFull" checked>
+                                <p>회원등급에 따라 상시 할인혜택(5%)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Box boxStyle my20">
+                        <div class="flex_sb">
+                            <h3 class="gray">T사</h3>
+                            <label class="gr">구매대행</label>
+                        </div>
+                        <div class="flex_sb">
+                            <p class="textArea0">구매대행 수수료</p>
+                            <p class="textArea0"><span class="fs40 gray">3~5</span> %</p>
+                        </div>
+                        <div class="checkBox">
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine" checked>
+                                <p>기준 통화 : 위안화(CNY)</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine" checked>
+                                <p class="bold">적용 환율 : 현찰살때 환율 이상</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine">
+                                <p>1688 구매실적 누적 불가</p>
+                            </div>
+                            <div class="Check">
+                                <input type="checkbox" class="checkLine">
+                                <p>회원등급에 따른 상시 할인혜택 없음</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- table -->
+        <section id="Wrap" class="bgG">
+            <div id="inner" class="table">
+                <div class="titleBox">
+                    <h2>얼마나</h2>
+                    <h2><b class="pink">원가절감</b>이 될까요?</h2>
+                    <p class="textArea gray">
+                        <span class="caption01">(원화 약 2,000만원)</span><br>
+                        100,000위안 상품 구매시, <br>최대 약 190만원 절감효과!
+                    </p>
+                </div>
+                <div class="tableArea">
+                    <table class="tg">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th class="main">
+                                    <p>슈퍼레이블</p>
+                                </th>
+                                <th>
+                                    <p>구매대행사 A</p>
+                                </th>
+                                <th>
+                                    <p>구매대행사 B</p>
+                                </th>
+                                <th>
+                                    <p>구매대행사 C</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>구매방식</td>
+                                <td class="super">직접구매<br>-KJB(CNH)</td>
+                                <td>구매대행</td>
+                                <td>구매대행</td>
+                                <td>구매대행</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>1688 구매가격</td>
+                                <td class="super">¥100,000.00</td>
+                                <td>¥100,000.00</td>
+                                <td>¥100,000.00</td>
+                                <td>¥100,000.00</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">3</td>
+                                <td>적용환율<br>(CNY:KRW)</td>
+                                <td class="super">-</td>
+                                <td>195.34</td>
+                                <td>199.34</td>
+                                <td>198.34</td>
+                            </tr>
+                            <tr>
+                                <td>물품견적가<br>(KRW)</td>
+                                <td class="super">-</td>
+                                <td>₩19,533,986</td>
+                                <td>₩19,933,986</td>
+                                <td>₩19,883,986</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">4</td>
+                                <td>적용환율<br>(CNY:USD)</td>
+                                <td class="super">0.1428</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>물품견적가 <br>(USD)/충전금액</td>
+                                <td class="super">$14,282.86 </td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">5</td>
+                                <td>적용환율<br>(CNY:USD)</td>
+                                <td class="super">1334.56</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>물품견적가<br>(USD)/충전금액</td>
+                                <td class="super">₩19,061,338</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>물품견적가<br>(KRW)</td>
+                                <td class="super">₩19,061,338</td>
+                                <td>₩19,533,986</td>
+                                <td>₩19,933,986</td>
+                                <td>₩19,883,986</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>구매대행 수수료율</td>
+                                <td class="super">0%</td>
+                                <td>5%</td>
+                                <td>5%</td>
+                                <td>3%</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>구매대행 수수료</td>
+                                <td class="super">₩0</td>
+                                <td>₩976,699</td>
+                                <td>₩996,699</td>
+                                <td>₩596,520</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>최종 구매대행<br>견적가</td>
+                                <td class="super">₩19,061,338</td>
+                                <td>₩19,533,986</td>
+                                <td>₩19,933,986</td>
+                                <td>₩19,883,986</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>9번의 최고견적가<br>대비 절감액</td>
+                                <td class="super">-₩1,869,347</td>
+                                <td>-₩420,000</td>
+                                <td>₩0</td>
+                                <td>-₩450,180</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>9번의 최고견적가<br>대비 절감율</td>
+                                <td class="super">-8.93%</td>
+                                <td>-2.01%</td>
+                                <td>0.00%</td>
+                                <td>-2.15%</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>구매원가<br>절감방법 순위</td>
+                                <td class="super">1</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- develop -->
+        <section id="Wrap">
+            <div id="inner" class="develop">
+                <div class="titleBox bold">
+                    <h2><b class="pink">'1688 직접구매 솔루션'</b>은 </h2>
+                    <h2 class="">이렇게 발전해왔어요!</h2>
+                </div>
+                <div class="flexArea">
+                    <div class="flex_sb mb30">
+                        <div class="text">
+                            <h5 class="bold">버전1.0</h5>
+                            <p>2024.07</p>
+                        </div>
+                        <div class="imgArea">
+                            <img src="./images/logo_worldfirst.png" alt="">
+                        </div>
+                        <img src="./images/main_api.png" alt="">
+                        <div class="imgArea">
+                            <img src="./images/logo_var2.png" alt="">
+                        </div>
+                        <img src="./images/main_unapi.png" alt="">
+                        <div class="imgArea bgG">
+                            <img src="./images/logo_1688G.png" alt="">
+                        </div>
+                    </div>
+                    <div class="imgArea mb30">
+                        <img src="./images/icon_load2.svg" alt="">
+                    </div>
+                    <div class="flex_sb">
+                        <div class="text">
+                            <h5 class="bold">버전2.0</h5>
+                            <p>2025.03</p>
+                        </div>
+                        <div class="imgArea">
+                            <img src="./images/logo_worldfirst.png" alt="">
+                        </div>
+                        <img src="./images/main_api.png" alt="">
+                        <div class="imgArea">
+                            <img src="./images/logo_var2.png" alt="">
+                        </div>
+                        <img src="./images/main_api.png" alt="">
+                        <div class="imgArea">
+                            <img src="./images/logo_1688.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WorldFirst -->
+        <section id="Wrap">
+            <div id="inner" class="WorldFirst">
+                <div class="imgWrap">
+                    <div class="left">
+                        <div class="imgBox mb30">
+                            <img src="./images/logo_Nosymbol.png" alt="">
+                            <i class="ri-close-fill textArea0"></i>
+                            <img src="./images/logo_worldfirst01.png" alt="">
+                        </div>
+                        <p class="textArea0 bold">
+                            글로벌 핀테크 기업 월드퍼스트(WorldFirst)의 <br>공식 한국 파트너사, <span class="pink">슈퍼레이블</span>
+                        </p>
+                    </div>
+                    <div class="right">
+                        <img src="./images/main_img01.png" alt="">
+                        <p class="caption">2024 E-commerce Fair <br class="br425"><span>|</span> 슈퍼레이블 × 월드퍼스트 공동참가</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- service -->
+        <section id="Wrap" class="bgG">
+            <div id="inner" class="chatWrap">
+                <div class="boxStyle02">
+                    <div class="titleBox">
+                        <h2>슈퍼레이블만의 <br class="br425"><b class="pink">배송·물류 서비스</b></h2>
+                    </div>
+                    <div class="chatBox">
+                        <div class="flex">
+                            <img src="./images/main_chat_img01.png" alt="">
+                            <div class="boxStyle03">
+                                <img src="./images/main_chat_img01.png" alt="" class="displayNone">
+                                1688 상품 구매는 그렇다 치고, 사업자 LCL 배송대행도 해주나요?
+                            </div>
+                        </div>
+                        <div class="flex flexEnd">
+                            <div class="boxStyle03">
+                                <img src="./images/main_chat_img02.png" alt="" class="displayNone">
+                                네 그럼요! 슈퍼레이블 배송·물류서비스는 단순한 배대지 서비스를 넘어, <br>LCL 배송대행, FCL화물 공장픽업까지 원클릭으로 가능해졌답니다
+                                👍<br><br>
+                                롯데 글로벌로지스와 물류 기술협약을 맺고 <br>양사간 API 연동개발을 통해 물류자동화를 이뤄낸 덕분이에요 :)
+                            </div>
+                            <img src="./images/main_chat_img02.png" alt="">
+                        </div>
+                        <div class="flex">
+                            <img src="./images/main_chat_img01.png" alt="">
+                            <div class="boxStyle03">
+                                <img src="./images/main_chat_img01.png" alt="" class="displayNone">
+                                대박이네요. 우선 1688상품으로 판매하다가 <br>OEM 대량생산하게 되면 FCL물류까지 의뢰해볼게요!
+                            </div>
+                        </div>
+                        <div class="flex flexEnd">
+                            <div class="boxStyle03">
+                                <img src="./images/main_chat_img02.png" alt="" class="displayNone">
+                                넵! 1688 구매상품이든, 공장 대량생산 제품이든 맡겨만 주시면 <br> 한국 뿐만 아니라 전세계 어디든 보내드리겠습니다 :)<br>
+                                도움 필요하시면 언제든 문의 부탁드립니다~ <br>
+                                감사합니다!
+                            </div>
+                            <img src="./images/main_chat_img02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandWrap">
+                    <div class="flex">
+                        <img src="./images/logo_Nosymbol.png" alt="">
+                        <i class="ri-close-line textArea0"></i>
+                        <img src="./images/logo_lotte.png" alt="">
+                    </div>
+                    <p class="textArea0"><b>슈퍼레이블</b>의 <b>배송·물류서비스</b>는<br class="br425"> 글로벌 물류 기업 <br class="br425"><b>롯데글로벌로지스</b>과 함께 합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- note -->
+        <section id="Wrap" class="bgP">
+            <div id="inner">
+                <div class="titleBox bold">
+                    <h2>슈퍼레이블의 <br class="br425"><b class="pink">사업자 배송·물류서비스</b>는</h2>
+                    <h2>어떻게 달라졌나요?</h2>
+                </div>
+                <div class="noteArea">
+                    <div class="note"></div>
+                    <div class="box">
+                        <div class="imgArea mb30">
+                            <img src="./images/main_noteIdea.svg" alt="">
+                        </div>
+                        <div class="textArea0 mb30">기획자 노트</div>
+                        <div class="textArea gray">
+                            <p class="mb30">서비스 기획에 앞서 단순 '있어빌리티' 겉멋 보다는 기존 배송대행 서비스들의 불편한 점을 개선하는데 집중하였습니다.
+                            </p>
+                            <p class="mb30">
+                                배송대행 이용간 가장 불편했던 점은 '여러 상품을 한번에 배송대행 신청하면서 부가서비스 또한 일괄 신청해야하는 점이었어요. <br>이러한 문제점으로 배대지
+                                측과
+                                이런저런 귀찮은 커뮤니케이션 리소스가 발생해왔습니다.
+                            </p>
+                            <p class="mb30">
+                                상품마다 각기 다른 수입요건에 맞추기 위해 '배송신청 건'이 아닌 '개별 상품(SKU)'에 부가옵션(원산지표시/포장/검수)를 적용할 수 있게끔,
+                                <br>'배송신청
+                                건' 단위에서 '개별 상품' 단위로 배송 관리할 수 있는 방향으로 USER FLOW를 변경하게 되었습니다.
+
+                            </p>
+                            <p class="mb30">
+                                기존 사업자 배송대행 서비스에 익숙해지신 분들께는 생소하실 수 있지만, 개선된 배송 FLOW에 익숙해지시면 배대지 측과 별도 커뮤니케이션 <br>리소스는
+                                최소화되어
+                                더욱 원활한 상품 소싱 업무를 하실 수 있을 것이라고 생각합니다. 많은 이용 부탁드립니다~ 감사합니다 🤗
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="delivery">
+                    <div class="del_title">
+                        <div class="titleArea">배송신청건 전체 상품이 아닌 <br class="br425"><span class="pink">개별 상품(SKU)으로
+                                배송관리</span></div>
+                        <p class="textArea gray">(여러 상품)배송신청 1건당 신청할 수 밖에 없었던 <br class="br425">부가옵션을 상품별로 선택할 수 있어요.
+                            <br> 상품별 각각 다른 부가옵션, <span class="pink">매번 배대지 직원에게 <br class="br425">요청했던 불편함을 혁신적으로
+                                개선</span>하였습니다.</p>
+                    </div>
+                    <div class="delArea flex_sb">
+                        <div class="box">
+                            <p class="title">1.배송할 상품</p>
+                            <div class="imgBox ib01">
+                                <span><img src="./images/main_box01.png" alt=""></span>
+                                <span><img src="./images/main_box02.png" alt=""></span>
+                                <span><img src="./images/main_box03.png" alt=""></span>
+                                <span><img src="./images/main_box04.png" alt=""></span>
+                                <span><img src="./images/main_box05.png" alt=""></span>
+                                <span><img src="./images/main_box06.png" alt=""></span>
+                            </div>
+                        </div>
+                        <i class="ri-arrow-down-s-fill"></i>
+                        <div class="box">
+                            <p class="title">2.배대지 입고 일괄신청</p>
+                            <div class="imgBox ib02">
+                                <span class="flex_sb"><img src="./images/main_box01.png" alt="">
+                                    <div class="delLabel">
+                                        <label class="gray">원산지스티커</label>
+                                        <label class="gray">상세검수</label>
+                                        <label class="gray">에어캡포장</label>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box02.png" alt="">
+                                    <div class="delLabel">
+                                        <label class="gray">원산지도장</label>
+                                        <label class="gray">기본검수</label>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box03.png" alt="">
+                                    <div class="delLabel">
+                                        <label class="gray">박스미개봉</label>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box04.png" alt="">
+                                    <div class="delLabel">
+                                        <label class="gray">원산지스티커</label>
+                                        <label class="gray">기본검수</label>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box05.png" alt="">
+                                    <div class="delLabel">
+                                        <label class="gray">원산지스티커</label>
+                                        <label class="gray">상세검수</label>
+                                        <label class="gray">OPP개별포장</label>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box06.png" alt="">
+                                    <div class="delLabel">
+                                        <label class="gray">원산지스티커</label>
+                                        <label class="gray">기본검수</label>
+                                        <label class="gray">에어캡포장</label>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <i class="ri-arrow-down-s-fill"></i>
+                        <div class="box">
+                            <p class="title">3.배대지 입고 현황</p>
+                            <div class="imgBox ib03">
+                                <span class="flex_sb"><img src="./images/main_box01.png" alt="">
+                                    <div class="delLabel col">
+                                        <label class="sky">입고완료</label>
+                                        <p>부가옵션 작업까지 완료하여 즉시 출고가능</p>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box02.png" alt="">
+                                    <div class="delLabel col">
+                                        <label class="orange">입고처리중</label>
+                                        <p>상품이 배대지 도착하여 부가옵션 작업 중</p>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box03.png" alt="">
+                                    <div class="delLabel col">
+                                        <label class="orange">입고처리중</label>
+                                        <p>상품이 배대지 도착하여 부가옵션 작업 중</p>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box04.png" alt="">
+                                    <div class="delLabel col">
+                                        <label class="sky">입고완료</label>
+                                        <p>부가옵션 작업까지 완료하여 즉시 30출고가능</p>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box05.png" alt="">
+                                    <div class="delLabel col">
+                                        <label class="pk">입고대기</label>
+                                        <p>상품이 배대지에 도착하기 전</p>
+                                    </div>
+                                </span>
+                                <span class="flex_sb"><img src="./images/main_box06.png" alt="">
+                                    <div class="delLabel col">
+                                        <label class="sky">입고완료</label>
+                                        <p>부가옵션 작업까지 완료하여 즉시 출고가능</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <i class="ri-arrow-down-s-fill"></i>
+                        <div class="box">
+                            <p class="title">4.배대지 출고요청</p>
+                            <div class="flex">
+                                <div class="delBox">
+                                    <div class="text">출고 요청</div>
+                                    <div class="imgBox ib04 Line">
+                                        <div>
+                                            <span><img src="./images/main_box01.png" alt=""><label
+                                                    class="sky">입고완료</label></span>
+                                            <span><img src="./images/main_box04.png" alt=""><label
+                                                    class="sky">입고완료</label></span>
+                                            <span><img src="./images/main_box06.png" alt=""><label
+                                                    class="sky">입고완료</label></span>
+                                        </div>
+                                        <div>
+                                            <p class="fs16">출고옵션 선택</p>
+                                            <div class="delLabel">
+                                                <label class="gray">해운</label>
+                                                <label class="gray">원산지증명서</label>
+                                                <label class="gray">적하보험</label>
+                                                <label class="gray">LCL</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="delBox gr">
+                                    <div class="text">출고대기</div>
+                                    <div class="imgBox ib04-2">
+                                        <span><img src="./images/main_box02.png" alt=""><label
+                                                class="orange">입고처리중</label></span>
+                                        <span><img src="./images/main_box03.png" alt=""><label
+                                                class="orange">입고처리중</label></span>
+                                        <span><img src="./images/main_box05.png" alt=""><label
+                                                class="pk">입고대기</label></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="ri-arrow-down-s-fill"></i>
+                        <div class="box">
+                            <p class="title">5.한국 도착</p>
+                            <div class="delBox">
+                                <div class="text">
+                                    수입통관 · 국내배송
+                                </div>
+                                <div class="imgBox ib05" style="width: -webkit-fill-available; align-items: center;">
+                                    <span><img src="./images/main_box01.png" alt=""></span>
+                                    <span><img src="./images/main_box04.png" alt=""></span>
+                                    <span><img src="./images/main_box06.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="del">
+                    <div class="delDetaile">
+                        <div class="flex">
+                            <img src="./images/main_box_img01.png" alt="">
+                            <div class="flex_col ml30">
+                                <h5>1688 구매한 상품은 자동 List-up</h5>
+                                <p>'1688 직접구매 솔루션'을 통해 구매한 1688 상품은 <br>
+                                    배송대기 상품 리스트에 자동으로 추가 됩니다. <br>
+                                    1688 구매상품 List에서 드래그하여 입고신청하면 배송신청 끝!</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex_col mr30">
+                                <h5>입고완료 상품만 선택하여 빠른 출고요청</h5>
+                                <p>더 이상 모든 상품의 현지 배송을 기다릴 필요가 없어요! <br> 마우스로 입고완료된 상품들만 선택하여 <br>
+                                    먼저 출고요청할 수 있습니다 👍</p>
+                            </div>
+                            <img src="./images/main_box_img02.png" alt="">
+                        </div>
+
+                        <div class="flex">
+                            <img src="./images/main_box_img01.png" alt="">
+                            <div class="flex_col ml30">
+                                <h5>간편하고 빠른 입고오류 조치</h5>
+                                <p>배대지 입고 처리중 발생하는 '입고오류'건 발생 시, <br>
+                                    카톡으로 알림을 받아 빠르게 오류내역을 <br class="br425">확인 및 조치할 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex_col mr30">
+                                <h5>한눈에 보이는 출고 내역</h5>
+                                <p>출고요청 건별 필수 확인정보들을 한눈에 확인하실 수 있게끔 <br>
+                                    유저 사용성을 크게 개선하였고, 출고 상품정보 등 <br>
+                                    상세항목 또한 한 페이지에서 확인 하실 수 있습니다.</p>
+                            </div>
+                            <img src="./images/main_box_img02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- review -->
+        <div id="Wrap">
+            <div id="inner">
+                <div class="titleBox">
+                    <h2>슈퍼레이블 <b class="pink">고객사 리뷰</b>를</h2>
+                    <h2>확인해보세요!</h2>
+                </div>
+                <div class="review-box displayBlock">
+                    <div class="review boxStyle03">
+                        <div class="flex_sb">
+                            <img src="./images/main_reviewDeco.png" alt="">
+                            <div class="review-header">
+                                <div class="flex">
+                                    <div class="imgArea">
+                                        <img src="./images/main_profile01.svg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <b>김** 대표님</b>
+                                        <p>A온라인셀러</p>
+                                    </div>
+                                </div>
+                            </div>                                
+                        </div>
+                        <div class="review-content">
+                            스토어에 100개 SKU 조금 안되는 상품들 대부분 1688에서 사입하고 있습니다. <br>스테디 셀러 아이템은 월 발주량이 좀 큰 편인데 다른 구매대행사 통해서 해오다가 지금은 '1688 직접구매' 통해서 사입하는데 발주금액이 크니까 절감되는 원가가 무시 못할 정도로 영향이 크네요. <br>작년 이커머스페어에서 현장 상담받고 반신반의로 소량으로 사입하면서 테스트 했는데 큰 이슈없어서 지금은 모든 아이템 '1688 직접구매'로 사입하고 있어요. <br>잘 이용하고 있습니다. 번창하시길 바라겠습니다. <br>감사합니다.
+                        </div>
+                    </div>
+                    <div class="flex_col">
+                        <div class="review boxStyle03 mt150">
+                            <img src="./images/main_reviewDeco.png" alt="">
+                            <div class="review-header">
+                                <div class="flex">
+                                    <div class="imgArea">
+                                        <img src="./images/main_profile02.svg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <b>김** 구매담당자</b>
+                                        <p>A브랜드 사</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-content">
+                                1688에서는 브랜드 사은품이나 판촉물 위주로 수입 하고 있어요. <br>
+                                아무래도 공산품은 1688만한 곳이 없는 것 같아요. <br>
+                                주로 한국에서 소모하는 아이템만 1688에서 사입했는데 저희 대표님이 아마존에도 GIVEAWAY 사은품으로 입고시키라고 해서 어떡하지 하다가 혹시나 해서
+                                슈퍼레이블 문의했는데 별도 물류건으로 아마존FBA 입고까지 처리해주셨어요. <br>
+                                중국>한국만 되는 줄 알았는데 롯데물류(?)랑 계약되있어서 중국에서 전세계로 보낼 수 있다고 하더라구요. <br>
+                                아무튼 회사에서 역직구 사업들 확장 중이라서 슈퍼레이블 물류도 더 많이 이용할 것 같아요ㅎㅎ
+                            </div>
+                        </div>
+                        <div class="review boxStyle03">
+                            <img src="./images/main_reviewDeco.png" alt="">
+                            <div class="review-header">
+                                <div class="flex">
+                                    <div class="imgArea">
+                                        <img src="./images/main_profile03.svg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <b>김** 대표님</b>
+                                        <p>컨설팅</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-content">
+                                초보셀러인데 일단 광고보고 가입했어요ㅎㅎㅎ <br>유튜브만 찾아보면서 공부하고 시작하는거라서… 모르는게 너무 많아서  슈퍼레이블에 진짜 많이 물어봤어요.<br> 다른 셀러분들은 어떻게 소싱하는지 다른 방법은 어떻게 있는지 상세하게 잘 가르쳐주셔서ㅎㅎ <br>뭔가 1:1 과외받는 느낌이었어요!<br> 얼른 사업키워서 더 많이 이용할게요~ <br>감사해요 :)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_col">
+                        <div class="review boxStyle03">
+                            <img src="./images/main_reviewDeco.png" alt="">
+                            <div class="review-header">
+                                <div class="flex">
+                                    <div class="imgArea">
+                                        <img src="./images/main_profile04.svg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <b>김** 구매담당자</b>
+                                        <p>cs친절</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-content">
+                                서과장님 유튜브보고 가입해서 잘 이용하고 있어요. <br>처음에 알리페이, 1688, 월드퍼스트 가입 하는데 <br>제가실수해서 뭐가 좀 꼬여서 애먹긴 했는데 <br>슈퍼레이블직원분이 거의 1시간 넘게 같이 도와주셔서 너무 감사했어요!!<br>1688판매자와 이슈 생기거나 했을때도, <br>슈퍼레이블직원분들이 발 벋고 나서서 도와주시고 약간 든든한아군 같은 느낌이 들어요ㅋㅋㅋ<br>제가 주변 사업자 분들한테도 슈퍼레이블 많이 추천하고 있어요! 
+                            </div>
+                        </div>
+                        <div class="review boxStyle03">
+                            <img src="./images/main_reviewDeco.png" alt="">
+                            <div class="review-header">
+                                <div class="flex">
+                                    <div class="imgArea">
+                                        <img src="./images/main_profile01.svg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <b>김** 대표님</b>
+                                        <p>사용자편의성</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-content">
+                                소자본 일본, 중국 구매대행 판매 하다가 사입판매 고민하다가 인스타광고 보고 가입했어요. <br>안에 화면은 뭔가 일반 구매대행업체들하고 비슷한듯 다른 것 같고, 처음 이런저런 회원가입, 연동 등<br> 세팅하는데 조금 힘들긴 했는데 처음에만 그렇고 지금은 계속 이용하다보니 <br>지금은 익숙해지니까 편한 것 같아요~ <br>쿠팡그로스 입고 안되는것 같아서 따로 물어보니 <br>된다고해서 잘 이용하고 있어요!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewSwiper review-box displayNone">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide review boxStyle03">
+                            <div class="flex_sb">
+                                <div class="review-header">
+                                    <div class="flex">
+                                        <div class="imgArea">
+                                            <img src="./images/main_profile01.svg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <b>김** 대표님</b>
+                                            <p>A온라인셀러</p>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <img src="./images/main_reviewDeco.png" alt="">
+                            </div>
+                            <div class="review-content">
+                                스토어에 100개 SKU 조금 안되는 상품들 대부분 1688에서 사입하고 있습니다. <br>스테디 셀러 아이템은 월 발주량이 좀 큰 편인데 다른 구매대행사 통해서 해오다가 지금은 '1688 직접구매' 통해서 사입하는데 발주금액이 크니까 절감되는 원가가 무시 못할 정도로 영향이 크네요. <br>작년 이커머스페어에서 현장 상담받고 반신반의로 소량으로 사입하면서 테스트 했는데 큰 이슈없어서 지금은 모든 아이템 '1688 직접구매'로 사입하고 있어요. <br>잘 이용하고 있습니다. 번창하시길 바라겠습니다. <br>감사합니다.
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide review boxStyle03">
+                            <div class="flex_sb">
+                                <div class="review-header">
+                                    <div class="flex">
+                                        <div class="imgArea">
+                                            <img src="./images/main_profile02.svg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <b>김** 구매담당자</b>
+                                            <p>A브랜드 사</p>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <img src="./images/main_reviewDeco.png" alt="">
+                            </div>
+                            <div class="review-content">
+                                1688에서는 브랜드 사은품이나 판촉물 위주로 수입 하고 있어요. <br>
+                                아무래도 공산품은 1688만한 곳이 없는 것 같아요. <br>
+                                주로 한국에서 소모하는 아이템만 1688에서 사입했는데 저희 대표님이 아마존에도 GIVEAWAY 사은품으로 입고시키라고 해서 어떡하지 하다가 혹시나 해서
+                                슈퍼레이블 문의했는데 별도 물류건으로 아마존FBA 입고까지 처리해주셨어요. <br>
+                                중국>한국만 되는 줄 알았는데 롯데물류(?)랑 계약되있어서 중국에서 전세계로 보낼 수 있다고 하더라구요. <br>
+                                아무튼 회사에서 역직구 사업들 확장 중이라서 슈퍼레이블 물류도 더 많이 이용할 것 같아요ㅎㅎ
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide review boxStyle03">
+                            <div class="flex_sb">
+                                <div class="review-header">
+                                    <div class="flex">
+                                        <div class="imgArea">
+                                            <img src="./images/main_profile03.svg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <b>김** 대표님</b>
+                                            <p>A온라인셀러</p>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <img src="./images/main_reviewDeco.png" alt="">
+                            </div>
+                            <div class="review-content">
+                                초보셀러인데 일단 광고보고 가입했어요ㅎㅎㅎ  유튜브만 찾아보면서 공부하고 시작하는거라서… 모르는게 너무 많아서  슈퍼레이블에 진짜 많이 물어봤어요. 다른 셀러분들은 어떻게 소싱하는지 다른 방법은 어떻게 있는지 상세하게 잘 가르쳐주셔서ㅎㅎ 뭔가 1:1 과외받는 느낌이었어요! 얼른 사업키워서 더 많이 이용할게요~ 감사해요 :)
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide review boxStyle03">
+                            <div class="flex_sb">
+                                <div class="review-header">
+                                    <div class="flex">
+                                        <div class="imgArea">
+                                            <img src="./images/main_profile04.svg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <b>김** 대표님</b>
+                                            <p>A온라인셀러</p>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <img src="./images/main_reviewDeco.png" alt="">
+                            </div>
+                            <div class="review-content">
+                                스토어에 100개 SKU 조금 안되는 상품들 대부분 1688에서 사입하고 있습니다. <br>스테디 셀러 아이템은 월 발주량이 좀 큰 편인데 다른 구매대행사
+                                통해서 해오다가 지금은 '1688 직접구매' 통해서 사입하는데 발주금액이 크니까 절감되는 원가가 무시 못할 정도로 영향이 크네요. <br>작년 이커머스페어에서
+                                현장 상담받고 반신반의로 소량으로 사입하면서 테스트 했는데 큰 이슈없어서 지금은 모든 아이템 '1688 직접구매'로 사입하고 있어요. <br>잘 이용하고
+                                있습니다. 번창하시길 바라겠습니다. <br>감사합니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- swiper -->
+        <div id="Wrap" class="bgG">
+            <div id="inner">
+                <div class="titleBox">
+                    <h2 class="bold">슈퍼레이블 <b class="pink">이용절차</b></h2>
+                </div>
+                <section class="type1">
+                    <div class="tab-container">
+                        <div class="tabs">
+                            <div class="tab active" data-tab="1">
+                                <h4>1688 직접구매 솔루션</h4>
+                            </div>
+                            <div class="tab" data-tab="2">
+                                <h4>배송·물류대행 서비스</h4>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-content-slider swiper-container active" data-slider="1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./images/main_swiperImg01.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/main_swiperImg02.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content-slider swiper-container" data-slider="2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./images/main_swiperImg01.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/main_swiperImg02.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content-slider swiper-container" data-slider="3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="flex_sb">
+                                            <div class="text">
+                                                <h4 class="mb20">제목을 입력하세요.</h4>
+                                                <p>내용을 입력해주세요</p>
+                                            </div>
+                                            <div class="imgArea">
+                                                <img src="../image/main_sec02_img04.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content-slider swiper-container" data-slider="4">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="flex_sb">
+                                            <div class="text">
+                                                <h4 class="mb20">제목을 입력하세요.</h4>
+                                                <p>내용을 입력해주세요</p>
+                                            </div>
+                                            <div class="imgArea">
+                                                <img src="../image/service_sec01.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content-slider swiper-container" data-slider="5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="flex_sb">
+                                            <div class="text">
+                                                <h4 class="mb20">제목을 입력하세요.</h4>
+                                                <p>내용을 입력해주세요</p>
+                                            </div>
+                                            <div class="imgArea">
+                                                <img src="../image/main_sec02_img04.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- banner -->
+        <div id="Wrap" class="banner">
+            <div id="inner">
+                <section class="Banner">
+                    <p>원가절감은 사업확장의 <br class="br768">선택사항이 아닌 필수사항입니다.</p>
+                    <h2>사업자 고객님! <br>
+                        이제는 평생 <b class="pink">구매대행 0원</b>으로 <br class="br1200"><b class="ore">1688</b><b>에서 직접
+                            구매</b>하세요!</h2>
+                    <img src="./images/main_banner_img01.png" alt="" class="displayNone">
+                    <div class="buttons">
+                        <button class="btn"><a href="javascript:void(0);">사업자 회원가입</a></button>
+                        <button class="btn"><a href="javascript:void(0);">실시간 문의하기</a></button>
+                        <button class="btn home"><a href="javascript:void(0);">슈퍼레이블</a> </button>
+                    </div>
+                    <span class="caption01">'1688 직접구매 솔루션'은 PC버전 web에 최적화되어있습니다.</span>
+                </section>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div id="inner">
+                <div class="flex mb30">
+                    <a href="javascript:void(0);" class="ftlogo"><img src="./images/logo_F.png" alt="로고" class="displayBlock"></a>
+                    <a href="javascript:void(0);" class="ftlogo"><img src="./images/logo_F_mobile.png" alt="로고" class="displayNone"></a>
+                    <ul class="footHead">
+                        <li><a href="javascript:void(0);">이용약관</a>
+                            <span>|</span>
+                            <a class="white" href="javascript:void(0);">개인정보취급방침</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex_sb">
+                    <ul>
+                        <li>주식회사 슈퍼레이블</li>
+                        <li>
+                            <div>개인정보보호책임자 : 김태훈</div>
+                            <span>|</span>
+                            <div>사업자등록증 : 322-86-02917</div>
+                        </li>
+                        <li>
+                            <div>통신판매업 신고번호 : 제2024-서울강남-03892호</div>
+                            <span>|</span>
+                            <div>대표전화 : 1544-8693</div>
+                        </li>
+                        <li>주소 : 서울특별시 강남구 봉은사로 207, 13층(KJ타워)</li>
+                    </ul>
+
+                    <div class="mlAuto">Copyright 2025 ⓒ SUPER LABEL </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- footer -->
+</body>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const counters = document.querySelectorAll('.countbox h4');
+
+        counters.forEach(counter => {
+            const updateCount = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText.replace(/[^0-9]/g, '');
+                const increment = target / 100;
+
+                if (count < target) {
+                    counter.innerText = target === 15 ? `+${Math.ceil(count + increment)}%` : `+${Math.ceil(count + increment)}`;
+                    setTimeout(updateCount, 20);
+                } else {
+                    counter.innerText = target === 15 ? `+${target}%` : `+${target}`;
+                }
+            };
+
+            updateCount();
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var tabSliders = document.querySelectorAll('.tab-content-slider');
+
+        tabSliders.forEach(function (slider, index) {
+            var sliderId = index + 1;
+            var mySwiper = new Swiper(slider, {
+                observer: true,
+                observeParents: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+            });
+        });
+
+        document.querySelectorAll('.tab').forEach(function (tab) {
+            tab.addEventListener('click', function () {
+                // 모든 tab과 slider의 active 상태 제거
+                document.querySelector('.tab.active').classList.remove('active');
+                document.querySelector('.tab-content-slider.active').classList.remove('active');
+
+                // 클릭된 tab에 active 클래스 추가
+                this.classList.add('active');
+
+                // 해당하는 tab의 slider에 active 클래스 추가
+                var targetSliderId = this.getAttribute('data-tab');
+                tabSliders.forEach(function (slider) {
+                    if (slider.getAttribute('data-slider') === targetSliderId) {
+                        slider.classList.add('active');
+                        slider.style.display = 'block'; // 슬라이더를 표시
+                    } else {
+                        slider.classList.remove('active');
+                        slider.style.display = 'none'; // 슬라이더를 숨김
+                    }
+                    slider.swiper.update(); // 슬라이더 업데이트
+                });
+            });
+        });
+    });
+</script>
+
+</html>
